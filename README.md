@@ -47,20 +47,26 @@ localhost:3000
 https://drive.google.com/file/d/1vTQHN9eqj_5S84_7qu16eGsvrItuRA--/view?usp=sharing
 
 
-## Integrating Web conf references : 
+Backend : 
 
-https://www.youtube.com/watch?v=hw89Up0_vOo
+https://drive.google.com/file/d/1vSvRCWUGZrdTOUe83A0U7fm0FbjIugUF/view?usp=sharing
 
+Mongo Db setup : 
 
-https://github.com/jitsi/jitsi-meet
+1. go to Google and search "mongo DB Atlas " 
+2. signup if you are doing it for a first time / login if you already have one
+https://www.mongodb.com/cloud/atlas
 
-https://scotch.io/tutorials/build-a-video-chat-service-with-javascript-webrtc-and-okta
-
-https://github.com/rdegges/chatapp
-
-https://github.com/jitsi/jitsi-meet
-
-+
-https://github.com/jitsi/lib-jitsi-meet/blob/master/doc/API.md#installation
+Reference : https://www.youtube.com/watch?v=rPqRyYJmx2g
+https://www.youtube.com/watch?v=Ej05tq1220A
 
 
+3. Create a project in top left ()
+4. Create a user after this - give a username and password - and remember this
+5. Click on network setup - make it open to all ip 
+4. After that create a new cluster and finish the setup 
+5. After the setup click on connect , and it'll take you to a page where you'll see a 
+link like below
+mongodb+srv://rakesh2:<password>@cluster0-chxhf.mongodb.net/test?retryWrites=true&w=majority
+
+6. Set this in server.js file (change the password field)
